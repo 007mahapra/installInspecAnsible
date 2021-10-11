@@ -1,0 +1,5 @@
+- hosts: all
+  roles:
+    - install_inspec
+  vars:
+    inspec_version: 4.46.13

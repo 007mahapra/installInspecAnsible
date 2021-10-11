@@ -1,0 +1,3 @@
+- name: Import install_el.yml if OS distribution is CentOS
+  import_tasks: install_el.yml
+  when: ansible_facts.os_family == 'RedHat'
